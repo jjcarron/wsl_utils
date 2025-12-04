@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 echo "⚙️  Forcing unmount of all drvfs entries..."
 sudo umount -a -t drvfs 2>/dev/null

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 # Fixes broken /mnt/* mount points in WSL2 after Windows sleep/hibernation
 
 echo "🔍 Scanning for broken /mnt/* mounts..."

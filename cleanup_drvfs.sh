@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 echo "🔧 Cleaning up corrupted drvfs mounts..."
 

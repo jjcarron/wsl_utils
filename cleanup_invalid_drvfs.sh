@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash -x
 
 echo "🧹 Cleaning up broken drvfs mounts with \\134 suffix..."
 

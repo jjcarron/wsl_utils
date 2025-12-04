@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 echo "🔁 Cleaning and remounting /mnt/[a-z] drives..."
 
@@ -32,4 +32,4 @@ for letter in {c..z}; do
 done
 
 echo "✅ Done."
-
+cat /proc/mounts | grep drvfs

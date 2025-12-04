@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/basha -x
 
 echo "🔍 Scanning for broken /mnt/[a-z] mount points..."
 
